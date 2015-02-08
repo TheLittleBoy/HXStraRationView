@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>15ACCE50-C9D1-475B-8B9F-1BAE8D42CA17</string>
+	<key>IDESourceControlProjectName</key>
+	<string>HXStraRationView</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>673E5CFCC54B1B6AA84E7F99EF5637E7EFDCD31D</key>
+		<string>https://github.com/TheLittleBoy/HXStraRationView.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>HXStraRationView.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>673E5CFCC54B1B6AA84E7F99EF5637E7EFDCD31D</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/TheLittleBoy/HXStraRationView.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>673E5CFCC54B1B6AA84E7F99EF5637E7EFDCD31D</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>673E5CFCC54B1B6AA84E7F99EF5637E7EFDCD31D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>HXStraRationView</string>
+		</dict>
+	</array>
+</dict>
+</plist>

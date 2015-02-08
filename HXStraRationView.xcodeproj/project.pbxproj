@@ -14,6 +14,9 @@
 		978AD95D1A8780CF005D9102 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 978AD95C1A8780CF005D9102 /* Images.xcassets */; };
 		978AD9601A8780CF005D9102 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 978AD95E1A8780CF005D9102 /* LaunchScreen.xib */; };
 		978AD96C1A8780CF005D9102 /* HXStraRationViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 978AD96B1A8780CF005D9102 /* HXStraRationViewTests.m */; };
+		978AD9781A87826C005D9102 /* icon_star_gray@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 978AD9761A87826C005D9102 /* icon_star_gray@2x.png */; };
+		978AD9791A87826C005D9102 /* icon_star_yellow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 978AD9771A87826C005D9102 /* icon_star_yellow@2x.png */; };
+		978AD97C1A8782CE005D9102 /* HXStarRatingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 978AD97B1A8782CE005D9102 /* HXStarRatingView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,10 @@
 		978AD9651A8780CF005D9102 /* HXStraRationViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HXStraRationViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		978AD96A1A8780CF005D9102 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		978AD96B1A8780CF005D9102 /* HXStraRationViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HXStraRationViewTests.m; sourceTree = "<group>"; };
+		978AD9761A87826C005D9102 /* icon_star_gray@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_star_gray@2x.png"; sourceTree = "<group>"; };
+		978AD9771A87826C005D9102 /* icon_star_yellow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_star_yellow@2x.png"; sourceTree = "<group>"; };
+		978AD97A1A8782CE005D9102 /* HXStarRatingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXStarRatingView.h; sourceTree = "<group>"; };
+		978AD97B1A8782CE005D9102 /* HXStarRatingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXStarRatingView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +88,7 @@
 		978AD94E1A8780CE005D9102 /* HXStraRationView */ = {
 			isa = PBXGroup;
 			children = (
+				978AD9751A878255005D9102 /* HXStarRatingView */,
 				978AD9531A8780CF005D9102 /* AppDelegate.h */,
 				978AD9541A8780CF005D9102 /* AppDelegate.m */,
 				978AD9561A8780CF005D9102 /* ViewController.h */,
@@ -117,6 +125,17 @@
 				978AD96A1A8780CF005D9102 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		978AD9751A878255005D9102 /* HXStarRatingView */ = {
+			isa = PBXGroup;
+			children = (
+				978AD9761A87826C005D9102 /* icon_star_gray@2x.png */,
+				978AD9771A87826C005D9102 /* icon_star_yellow@2x.png */,
+				978AD97A1A8782CE005D9102 /* HXStarRatingView.h */,
+				978AD97B1A8782CE005D9102 /* HXStarRatingView.m */,
+			);
+			path = HXStarRatingView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,6 +218,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				978AD9781A87826C005D9102 /* icon_star_gray@2x.png in Resources */,
+				978AD9791A87826C005D9102 /* icon_star_yellow@2x.png in Resources */,
 				978AD95B1A8780CF005D9102 /* Main.storyboard in Resources */,
 				978AD9601A8780CF005D9102 /* LaunchScreen.xib in Resources */,
 				978AD95D1A8780CF005D9102 /* Images.xcassets in Resources */,
@@ -222,6 +243,7 @@
 				978AD9581A8780CF005D9102 /* ViewController.m in Sources */,
 				978AD9551A8780CF005D9102 /* AppDelegate.m in Sources */,
 				978AD9521A8780CF005D9102 /* main.m in Sources */,
+				978AD97C1A8782CE005D9102 /* HXStarRatingView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
