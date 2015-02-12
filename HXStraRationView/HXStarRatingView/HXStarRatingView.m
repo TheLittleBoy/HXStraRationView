@@ -2,7 +2,7 @@
 //  HXStarRatingView.m
 //  HXStraRationView
 //
-//  Created by MAC_AO on 15/2/8.
+//  Created by MAC_AO on 15/2/12.
 //  Copyright (c) 2015年 MAC_AO. All rights reserved.
 //
 
@@ -18,7 +18,6 @@
 @property (nonatomic, strong) UIView *foregroundStarView;
 @property (nonatomic, strong) UIView *backgroundStarView;
 
-@property (nonatomic, assign) NSInteger numberOfStars;
 @property (nonatomic, strong) UITapGestureRecognizer *tapGesture;
 
 @end
@@ -55,7 +54,7 @@
 #pragma mark - Private Methods
 
 - (void)buildDataAndUI {
-    _scorePercent = 1;//默认为1
+    _scorePercent = 0;//默认为0
     _hasAnimation = NO;//默认为NO
     _allowIncompleteStar = NO;//默认为NO
     _isShowBlankStar = YES;//默认为YES
@@ -100,6 +99,16 @@
 }
 
 #pragma mark - Get and Set Methodsa
+
+-(void)setNumberOfStars:(NSInteger)numberOfStars
+{
+    _numberOfStars = numberOfStars;
+    
+    [self.backgroundStarView removeFromSuperview];
+    [self.foregroundStarView removeFromSuperview];
+    
+    [self buildDataAndUI];
+}
 
 -(UITapGestureRecognizer*)tapGesture
 {

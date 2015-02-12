@@ -2,12 +2,11 @@
 //  ViewController.m
 //  HXStraRationView
 //
-//  Created by MAC_AO on 15/2/8.
+//  Created by MAC_AO on 15/2/12.
 //  Copyright (c) 2015年 MAC_AO. All rights reserved.
 //
 
 #import "ViewController.h"
-#import "HXStarRatingView.h"
 
 @interface ViewController ()<HXStarRatingViewDelegate>
 
@@ -52,6 +51,10 @@
     starRateView4.delegate = self;
     starRateView4.allowSelectStar = YES;
     [self.view addSubview:starRateView4];
+    
+    
+    _myNibView.numberOfStars = 6;
+    _myNibView.scorePercent = 0.5;
     
 }
 

@@ -2,7 +2,7 @@
 //  HXStarRatingView.h
 //  HXStraRationView
 //
-//  Created by MAC_AO on 15/2/8.
+//  Created by MAC_AO on 15/2/12.
 //  Copyright (c) 2015年 MAC_AO. All rights reserved.
 //
 
@@ -17,8 +17,10 @@
 
 @interface HXStarRatingView : UIView
 
+@property (nonatomic, assign) NSInteger numberOfStars; //一共有几颗星星
+
 @property (nonatomic, assign) BOOL allowSelectStar;//是否允许评分，默认为NO
-@property (nonatomic, assign) CGFloat scorePercent;//得分值，范围为0--1，默认为1
+@property (nonatomic, assign) CGFloat scorePercent;//得分值，范围为0--1，默认为0
 @property (nonatomic, assign) BOOL hasAnimation;//是否允许动画，默认为NO
 @property (nonatomic, assign) BOOL allowIncompleteStar;//评分时是否允许不是整星，默认为NO
 @property (nonatomic, assign) BOOL isShowBlankStar;//是否显示背景空白星，默认为YES
